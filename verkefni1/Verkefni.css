@@ -1,0 +1,91 @@
+body{
+    background: whitesmoke;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.haussgrar{
+    color: darkslategrey;
+}
+
+.hausblar{
+    color: blue;
+    text-align: center;
+}
+
+h6{
+    color: red;
+}
+
+strong{
+    color:red;
+}
+
+.hausraudur{
+    color:darkred;
+}
+
+.haussvartur{
+    color: black;
+}
+
+.hausraudur2{
+    color: red;
+}
+
+.hausgraenn{
+    color: green;
+}
+
+.input{
+    border-style: groove;
+    padding: 20px;
+    border-width: 1px;
+    border-color: blue;
+
+    
+}
+
+.spassia{
+    padding-left: 40px;
+    color: blue;
+    
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.hausraudur3{
+    color: red;
+    text-align: center
+}

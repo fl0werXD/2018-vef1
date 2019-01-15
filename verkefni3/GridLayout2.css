@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body{
+    background-color: darkgrey;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 50px;
+    font-family: Anton;
+    grid-template-areas: 
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "haus haus haus haus haus"
+    "vinstri vinstri vinstri midja haegri"
+    "fotur fotur2 fotur3 fotur4 fotur5";
+}
+
+.fotur{
+    grid-area: fotur;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    gridt
+}
+
+.fotur2{
+    grid-area: fotur2;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.fotur3{
+    grid-area: fotur3;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.fotur4{
+    grid-area: fotur4;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.fotur5{
+    grid-area: fotur5;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.vinstri{
+    grid-area: vinstri;
+    background:lightgrey;
+    text-align: center;
+    padding: 50px;
+}
+
+.midja{
+    grid-area: midja;
+    background: darkslategray;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.haegri{
+    grid-area: haegri;
+    background: darkslategray;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h{
+    grid-area: haus;
+    background: #36454F;
+    text-align: center;
+    font-family: Anton;
+    font-size: 2em;
+    color: lightgrey;
+    
+}
+
+.hlekkur1{
+    grid-area: hlekkur1;
+    background:black;
+    text-align: center;
+    color: white;
+}
+
+.hlekkur2{
+    grid-area: hlekkur2;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.hlekkur3{
+    grid-area: hlekkur3;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.hlekkur4{
+    grid-area: hlekkur4;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.hlekkur5{
+    grid-area: hlekkur5;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

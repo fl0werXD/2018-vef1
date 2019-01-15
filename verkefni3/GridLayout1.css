@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 80px;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+
+.fotur{
+    grid-area: fotur;
+    background:burlywood;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+}
+
+.vinstri{
+    grid-area: vinstri;
+    background:gold;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.midja{
+    grid-area: midja;
+    background: yellow;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.haegri{
+    grid-area: haegri;
+    background: gold;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.h{
+    grid-area: haus;
+    background: yellow;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.hlekkur1{
+    grid-area: hlekkur1;
+    background:burlywood;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+}
+
+.hlekkur2{
+    grid-area: hlekkur2;
+    background: burlywood;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+}
+
+.hlekkur3{
+    grid-area: hlekkur3;
+    background: burlywood;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+}
+
+.hlekkur4{
+    grid-area: hlekkur4;
+    background: burlywood;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+}
+
+.hlekkur5{
+    grid-area: hlekkur5;
+    background: burlywood;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
